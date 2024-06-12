@@ -10,7 +10,7 @@ import org.springframework.security.web.SecurityFilterChain;
 public class ProjectSecurityConfig {
 
     @Bean
-    SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
+    SecurityFilterChain df(HttpSecurity http) throws Exception {
 
         /**
          *  Below is the custom security configurations
